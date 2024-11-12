@@ -168,21 +168,21 @@ const Home = () => {
       <div className="flex">
         <div>
           <img
-            className="absolute ml-[50px] mt-[130px] w-[480px] h-[540px]"
+            className="absolute ml-[50px] mt-[130px] w-[480px] h-[600px]"
             src={aboutuspic}
             alt=""
           />
         </div>
         <div>
-          <p className="absolute mt-[135px] ml-[720px] font-[montserrat] text-[black] text-[32px] font-semibold">
+          <p className="absolute mt-[135px] ml-[680px] font-[montserrat] text-[black] text-[32px] font-semibold">
             About Us
           </p>
           <img
-            className="absolute mt-[200px] ml-[720px]"
+            className="absolute mt-[200px] ml-[680px]"
             src={vectline1}
             alt=""
           />
-          <p className="absolute mt-[250px] ml-[720px] text-[black] text-[20px] font-normal">
+          <p className="absolute mt-[250px] ml-[650px] text-[black] text-[18px] font-normal">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed <br />{" "}
             do eiusmod tempor incididunt ut labore et dolore magna <br />
             aliqua. Ut enim ad minim veniam, quis nostrud exercitation <br />{" "}
@@ -196,6 +196,7 @@ const Home = () => {
           </p>
         </div>
       </div>
+      <div className="bg-[#F2F2F2] w-[1257px] h-[712px] mt-[860px]"></div>
     </div>
   );
 };
