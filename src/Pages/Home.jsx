@@ -4,7 +4,6 @@ import bgimage from "../../res/image.png";
 import who from "../../res/Group 6550.png";
 import rectangle from "../../res/Mask group.png";
 import map from "../../res/Group 35922.png";
-import vect from "../../res/vector.png";
 import vectline from "../../res/vector 60.png";
 import vect1 from "../../res/vector (1).png";
 import vect2 from "../../res/vector (3).png";
@@ -108,11 +107,11 @@ const Home = () => {
       <div>
         <div className="bg-[#07203D] h-[350px] w-[1257px] mt-[120px]">
           <div>
-            <img
+            {/* <img
               className="flex absolute w-[68px] h-[58px] mt-[50px] ml-[50px]"
-              src={vect}
+              src={vec}
               alt=""
-            />
+            /> */}
             <p className="absolute font-[montserrat] text-[white] font-medium text-[24px] w-[164px] h-[29px] ml-[50px] mt-[115px]">
               Our Mission
             </p>
