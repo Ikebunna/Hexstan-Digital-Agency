@@ -4,6 +4,10 @@ import bgimage from "../../res/image.png";
 import who from "../../res/Group 6550.png";
 import rectangle from "../../res/Mask group.png";
 import map from "../../res/Group 35922.png";
+import vect from "../../res/vector.png";
+import vectline from "../../res/vector 60.png";
+import vect1 from "../../res/vector (1).png";
+import vect2 from "../../res/vector (3).png";
 
 const Home = () => {
   // document.title = "";
@@ -97,6 +101,66 @@ const Home = () => {
             alt=""
           />
           {/* <img src={map} alt="" /> */}
+        </div>
+      </div>
+      <div>
+        <div className="bg-[#07203D] h-[300px] w-[1250px] mt-[120px]">
+          <div>
+            <img
+              className="flex absolute w-[68px] h-[58px] mt-[50px] ml-[50px]"
+              src={vect}
+              alt=""
+            />
+            <p className="absolute font-[montserrat] text-[white] font-medium text-[24px] w-[164px] h-[29px] ml-[50px] mt-[115px]">
+              Our Mission
+            </p>
+            <p className="absolute font-[montserrat] text-[white] font-extralight text-[15px] ml-[50px] mt-[160px] leading-[19px]">
+              Our mission is to empower businesses with <br />
+              creative digital and print solutions that bring <br />
+              ideas to life.
+            </p>
+          </div>
+          <img
+            className="absolute ml-[430px] mt-[50px]"
+            src={vectline}
+            alt=""
+          />
+          <div>
+            <img
+              className="absolute w-[68px] h-[58px] ml-[470px] mt-[50px]"
+              src={vect1}
+              alt=""
+            />
+            <p className="absolute font-[montserrat] text-[white] font-medium text-[24px] w-[164px] h-[29px] ml-[470px] mt-[115px]">
+              Our Vision
+            </p>
+            <p className="absolute font-[montserrat] text-[white] font-extralight text-[15px] ml-[470px] mt-[160px] leading-[19px]">
+              Our vision is to empower businesses with <br />
+              creative digital and print solutions that bring <br />
+              ideas to life.
+            </p>
+          </div>
+          <img
+            className="absolute ml-[845px] mt-[50px]"
+            src={vectline}
+            alt=""
+          />
+          <div>
+            <img
+              className="absolute w-[65px] h-[58px] ml-[890px] mt-[50px]"
+              src={vect2}
+              alt=""
+            />
+            <p className="absolute font-[montserrat] text-[white] font-medium text-[24px] w-[164px] h-[29px] ml-[890px] mt-[115px]">
+              Core Values
+            </p>
+            <p className="absolute font-[montserrat] text-[white] font-thin text-[15px] ml-[890px] mt-[155px] leading-[19px]">
+              Our core value is to empower businesses with
+              <br />
+              creative digital and print solutions that bring <br />
+              ideas to life.
+            </p>
+          </div>
         </div>
       </div>
     </div>
