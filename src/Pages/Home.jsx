@@ -8,6 +8,8 @@ import vect from "../../res/vector.png";
 import vectline from "../../res/vector 60.png";
 import vect1 from "../../res/vector (1).png";
 import vect2 from "../../res/vector (3).png";
+import aboutuspic from "../../res/image (1).png";
+import vectline1 from "../../res/vector 64.png";
 
 const Home = () => {
   // document.title = "";
@@ -104,7 +106,7 @@ const Home = () => {
         </div>
       </div>
       <div>
-        <div className="bg-[#07203D] h-[300px] w-[1250px] mt-[120px]">
+        <div className="bg-[#07203D] h-[350px] w-[1257px] mt-[120px]">
           <div>
             <img
               className="flex absolute w-[68px] h-[58px] mt-[50px] ml-[50px]"
@@ -154,13 +156,44 @@ const Home = () => {
             <p className="absolute font-[montserrat] text-[white] font-medium text-[24px] w-[164px] h-[29px] ml-[890px] mt-[115px]">
               Core Values
             </p>
-            <p className="absolute font-[montserrat] text-[white] font-thin text-[15px] ml-[890px] mt-[155px] leading-[19px]">
+            <p className="absolute font-[montserrat] text-[white] font-extralight text-[15px] ml-[890px] mt-[155px] leading-[19px]">
               Our core value is to empower businesses with
               <br />
               creative digital and print solutions that bring <br />
               ideas to life.
             </p>
           </div>
+        </div>
+      </div>
+      <div className="flex">
+        <div>
+          <img
+            className="absolute ml-[50px] mt-[130px] w-[480px] h-[540px]"
+            src={aboutuspic}
+            alt=""
+          />
+        </div>
+        <div>
+          <p className="absolute mt-[135px] ml-[720px] font-[montserrat] text-[black] text-[32px] font-semibold">
+            About Us
+          </p>
+          <img
+            className="absolute mt-[200px] ml-[720px]"
+            src={vectline1}
+            alt=""
+          />
+          <p className="absolute mt-[250px] ml-[720px] text-[black] text-[20px] font-normal">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed <br />{" "}
+            do eiusmod tempor incididunt ut labore et dolore magna <br />
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation <br />{" "}
+            bullamco laboris nisi ut aliquip ex ea commodo consequat. <br />{" "}
+            <br />
+            <br />
+            Duis aute irure dolor in reprehenderit in voluptate velit esse{" "}
+            <br /> cillum dolore eu fugiat nulla pariatur. Excepteur sint <br />{" "}
+            occaecat cupidatat non proident, sunt in culpa qui officia <br />
+            deserunt mollit anim id est laborum.
+          </p>
         </div>
       </div>
     </div>
