@@ -4,12 +4,15 @@ import bgimage from "../../res/image.png";
 import who from "../../res/Group 6550.png";
 import rectanglee from "../../res/Mask group.png";
 import mapp from "../../res/Group 35922.png";
-import vec from "../../res/vector.png";
-import vectline from "../../res/vector 60.png";
-import vect1 from "../../res/vector (1).png";
-import vect2 from "../../res/vector (3).png";
+import vec from "../../res/Vector.png";
+import vectline from "../../res/Vector 60.png";
+import vect1 from "../../res/Vector (1).png";
+import vect2 from "../../res/Vector (3).png";
 import aboutuspic from "../../res/image (1).png";
-import vectline1 from "../../res/vector 64.png";
+import vectline1 from "../../res/Vector 64.png";
+import linee from "../../res/Line 2.png";
+import hugeicon from "../../res/hugeicons.png";
+import brandpic from "../../res/image (2).png";
 
 const Home = () => {
   // document.title = "";
@@ -196,7 +199,80 @@ const Home = () => {
           </p>
         </div>
       </div>
-      <div className="bg-[#F2F2F2] w-[1257px] h-[712px] mt-[860px]"></div>
+      <div className="bg-[#F2F2F2] w-[1257px] h-[672px] mt-[860px]">
+        <p className="absolute font-[montserrat] text-[black] text-[40px] font-medium ml-[270px] mt-[100px]">
+          Printing
+        </p>
+        <img
+          className="absolute ml-[450px] mt-[100px] text-[black]"
+          src={linee}
+          alt=""
+        />
+        <p className="absolute font-[montserrat] text-[black] text-[40px] font-medium ml-[475px] mt-[100px]">
+          Branding
+        </p>
+        <img
+          className="absolute ml-[680px] mt-[100px] text-[black]"
+          src={linee}
+          alt=""
+        />
+        <p className="absolute font-[montserrat] text-[black] text-[40px] font-medium ml-[700px] mt-[100px]">
+          Software Solutions
+        </p>
+        <div>
+          <img
+            className="absolute ml-[180px] mt-[330px] w-[141px] h-[141px]"
+            src={hugeicon}
+            alt=""
+          />
+          <p className="absolute ml-[130px] mt-[480px] text-[32px] text-[black] font-[montserrat] font-light">
+            Branding-Printing
+          </p>
+        </div>
+        <div>
+          <img
+            className="absolute ml-[570px] mt-[330px] w-[141px] h-[141px]"
+            src={hugeicon}
+            alt=""
+          />
+          <p className="absolute ml-[440px] mt-[480px] text-[32px] text-[black] font-[montserrat] font-light">
+            Web Design & Development
+          </p>
+        </div>
+        <div>
+          <img
+            className="absolute ml-[980px] mt-[330px] w-[141px] h-[141px]"
+            src={hugeicon}
+            alt=""
+          />
+          <p className="absolute ml-[930px] mt-[480px] text-[32px] text-[black] font-[montserrat] font-light">
+            Graphics Design
+          </p>
+        </div>
+      </div>
+      <div className="bg-[#EDEDED] w-[1257px] h-[2000px]">
+        <div>
+          <p className="text-[black] text-[40px] font-[montserrat] font-bold pt-[70px] ml-[500px]">
+            Our{" "}
+            <span className="text-[#972D6B] font-[montserrat]">Service</span>
+          </p>
+          <img
+            className="absolute mt-[3px] ml-[515px]"
+            src={vectline1}
+            alt=""
+          />
+        </div>
+        <div>
+          <img
+            className="absolute w-[400px] h-[330px] mt-[90px] ml-[170px]"
+            src={brandpic}
+            alt=""
+          />
+          <p className="absolute text-[30.32px] font-semibold ml-[620px] mt-[170px] font-poppins text-[black]">
+            Branding
+          </p>
+        </div>
+      </div>
     </div>
   );
 };

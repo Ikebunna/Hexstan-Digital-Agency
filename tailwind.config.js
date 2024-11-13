@@ -6,6 +6,7 @@ export default {
       fontFamily: {
         nuni: "nunito",
         hindu: "hind",
+        poppins: "poppins",
       },
       colors: {},
     },
