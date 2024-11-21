@@ -5,7 +5,7 @@ import locicon from "../assets/res/Vector.png";
 const Footer = () => {
   return (
     <footer>
-      <div className="bg-[#07203D] h-[350px] w-full mt-[650px]">
+      <div className="bg-[#07203D] h-[350px] w-full mt-[100px]">
         <div>
           <img
             className="absolute w-[320px] h-[38px] ml-[200px] mt-[50px]"

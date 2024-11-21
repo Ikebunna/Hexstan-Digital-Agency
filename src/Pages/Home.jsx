@@ -227,24 +227,20 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="bg-[#EDEDED] w-full h-[1450px] flex justify-center items-start">
-        <div className="flex justify-center items-start gap-8">
+      <div className="bg-[#EDEDED] w-full h-[1450px] flex flex-col justify-center items-center gap-6">
+        <div className="">
           <p className="text-[black] text-[40px] font-[montserrat] font-bold">
             Our{" "}
             <span className="text-[#972D6B] font-[montserrat]">Service</span>
           </p>
-          <img
-            className="flex justify-start items-center"
-            src={vectline1}
-            alt=""
-          />
+          <img className="pl-3" src={vectline1} alt="" />
         </div>
-        <div className="flex justify-center items-center pt-10">
+        <div className="flex items-center justify-center gap-[50px] pt-[70px]">
           <div>
             <img className=" w-[400px] h-[330px]" src={brandpic} alt="" />
           </div>
-          <div>
-            <p className="text-[30.32px] font-semibold mt-[170px] font-poppins text-[black]">
+          <div className="flex flex-col gap-5">
+            <p className="text-[30.32px] font-semibold font-poppins text-[black]">
               Branding
             </p>
             <p className="text-[12px] text-[#383B40] font-normal">
@@ -259,63 +255,55 @@ const Home = () => {
             </p>
           </div>
         </div>
-        <div>
-          <img
-            className="absolute w-[400px] h-[330px] mt-[500px] ml-[740px]"
-            src={devpic}
-            alt=""
-          />
-          <p className="absolute align-[right] text-[28px] font-semibold ml-[350px] mt-[570px] font-poppins text-[black]">
-            Software Development
-          </p>
-          <p className="absolute text-right text-[12px] text-[#383B40] ml-[190px] mt-[640px] font-normal">
-            With expertise in web development and software design, I build
-            responsive, user-friendly <br /> websites and applications that meet
-            both functional and aesthetic needs. <br /> <br />
-            i have over 2 years of experience working in the software
-            development industry, and <br />I am proficient in several server
-            side languages and systems used for software development.
-          </p>
+        <div className="flex items-center justify-center gap-[50px] pt-[70px]">
+          <div className="flex flex-col gap-5">
+            <p className="text-right text-[28px] font-semibold font-poppins text-[black]">
+              Software Development
+            </p>
+            <p className="text-right text-[12px] text-[#383B40] font-normal">
+              With expertise in web development and software design, I build
+              responsive, user-friendly <br /> websites and applications that
+              meet both functional and aesthetic needs. <br /> <br />
+              i have over 2 years of experience working in the software
+              development industry, and <br />I am proficient in several server
+              side languages and systems used for software development.
+            </p>
+          </div>
+          <div>
+            <img className="w-[400px] h-[330px] " src={devpic} alt="" />
+          </div>
         </div>
-        <div>
-          <img
-            className="absolute w-[400px] h-[330px] mt-[900px] ml-[250px]"
-            src={graphpic}
-            alt=""
-          />
-          <p className="absolute text-[30.32px] font-semibold ml-[700px] mt-[950px] font-poppins text-[black]">
-            Graphics Design
-          </p>
-          <p className="absolute text-[12px] text-[#383B40] ml-[700px] mt-[1000px] font-normal">
-            With a passion for visual storytelling, I specialize in graphic
-            design that communicates ideas <br />
-            clearly and creatively. My skills span digital and print media,
-            including flyers, business cards, <br /> and layouts. <br />
-            <br /> I focus on creating visually compelling designs that align
-            with brand identities and captivate <br /> audiences. I deliver
-            high-quality graphics that enhance brand appeal and achieve
-            strategic goals.
-          </p>
+        <div className="flex items-center justify-center gap-[50px] py-[70px]">
+          <div>
+            <img className="w-[400px] h-[330px]" src={graphpic} alt="" />
+          </div>
+          <div className="flex flex-col gap-5">
+            <p className="text-[30.32px] font-semibold font-poppins text-[black]">
+              Graphics Design
+            </p>
+            <p className="text-[12px] text-[#383B40] font-normal">
+              With a passion for visual storytelling, I specialize in graphic
+              design that communicates ideas <br />
+              clearly and creatively. My skills span digital and print media,
+              including flyers, business cards, <br /> and layouts. <br />
+              <br /> I focus on creating visually compelling designs that align
+              with brand identities and captivate <br /> audiences. I deliver
+              high-quality graphics that enhance brand appeal and achieve
+              strategic goals.
+            </p>
+          </div>
         </div>
       </div>
-      <div>
+      <div className="flex justify-center items-center pt-[70px] gap-[50px]">
         <div>
-          <img
-            className="absolute w-[358px] h-[457px] ml-[170px] mt-[70px]"
-            src={choosepic}
-            alt=""
-          />
+          <img className="pt-5 w-[358px] h-[457px]" src={choosepic} alt="" />
         </div>
-        <div>
-          <img
-            className="absolute w-[650px] h-[200px] ml-[590px] mt-[70px]"
-            src={choosepic1}
-            alt=""
-          />
-          <p className="absolute ml-[740px] mt-[290px] font-[montserrat] text-[black] font-semibold text-[33px]">
+        <div className="flex flex-col justify-center items-center gap-7">
+          <img className="w-[650px] h-[200px]" src={choosepic1} alt="" />
+          <p className="font-[montserrat] text-[black] font-semibold text-[33px]">
             Why Choose Us?
           </p>
-          <p className="absolute text-justify mt-[360px] ml-[600px] text-[black] text-[18px]">
+          <p className="text-justify text-[black] text-[18px]">
             We believe in delivering value for money. Our services are
             competitively priced <br />
             without compromising on quality, giving you high-end results that
