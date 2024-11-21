@@ -5,7 +5,7 @@ const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
   return (
     <header>
-      <div className="flex justify-between items-center px-8 py-4">
+      <div className="flex justify-between items-center px-8 py-4 w-full">
         <div className="flex gap-5">
           <img className="w-[70px] h-[70px]" src={logo} alt="hexstan logo" />
           <p className="py-6 mr-10000 text-[#07203D]">Hexstan Digital Agency</p>

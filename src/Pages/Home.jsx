@@ -26,7 +26,7 @@ import Footer from "../component/Footer";
 const Home = () => {
   // document.title = "";
   return (
-    <div className=" max-w-[1440px] mx-auto">
+    <div className=" max-w-[1440px] mx-auto overflow-x-hidden">
       <div>
         <Header />
       </div>
@@ -91,8 +91,8 @@ const Home = () => {
         </div>
       </div>
       <div>
-        <div className="bg-[#07203D] h-[350px] w-full mt-[120px] items-center flex justify-center gap-4 ">
-          <div className="flex flex-col pl-6 pr-6 pb-[70px]">
+        <div className="bg-[#07203D] md:h-[350px] gap-2 w-full mt-[120px] flex-col md:flex-row items-center flex justify-center md:gap-4 ">
+          <div className="flex flex-col pl-6 pr-6 md:pb-[70px]">
             <div className="relative inline">
               <img
                 className="absolute w-[68px] h-[58px] top-0 left-0"
@@ -114,8 +114,12 @@ const Home = () => {
               ideas to life.
             </p>
           </div>
-          <img className="pb-[30px]" src={vectline} alt="" />
-          <div className="flex flex-col pl-6 pr-6 pb-[70px]">
+          <img
+            className="md:pb-[30px] rotate-90 md:rotate-0"
+            src={vectline}
+            alt=""
+          />
+          <div className="flex flex-col pl-6 pr-6 md:pb-[70px]">
             <div className="relative">
               <img
                 className="absolute w-[68px] h-[58px] top-0 left-0"
@@ -137,7 +141,11 @@ const Home = () => {
               ideas to life.
             </p>
           </div>
-          <img className="pb-[30px]" src={vectline} alt="" />
+          <img
+            className="md:pb-[30px] rotate-90 md:rotate-0"
+            src={vectline}
+            alt=""
+          />
           <div className="flex flex-col pl-6 pr-6 pb-[70px]">
             <div className="relative">
               <img
@@ -312,9 +320,7 @@ const Home = () => {
           </p>
         </div>
       </div>
-      <div>
-        <Footer />
-      </div>
+      <div>{/* <Footer /> */}</div>
     </div>
   );
 };
