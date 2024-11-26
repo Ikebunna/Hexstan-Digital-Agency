@@ -26,26 +26,25 @@ import Footer from "../component/Footer";
 const Home = () => {
   // document.title = "";
   return (
-    <div className=" max-w-[1440px] mx-auto overflow-x-hidden">
+    <div className=" max-w-[1440px] mx-auto overflow-x-hidden ">
       <div>
         <Header />
       </div>
       <div>
-        <div>
-          <p className="flex-col absolute font-extrabold text-[52px] text-[#FFFFFF] leading-[63.39px] font-[montserrat] pt-[150px] pl-[40px]">
+        <div className="flex absolute pl-[20px] lg:pl-[50px] pt-[50px] lg:pt-[140px] md:flex">
+          <p className="font-extrabold text-[17px] lg:text-[52px] text-[#FFFFFF] leading-[19px] lg:leading-[63.39px] font-[montserrat]">
             Elevate Your Brand <br />
             With Our
-            <span className="ml-3 text-[#972D6B] font-[montserrat]">
+            <span className="text-[#972D6B] font-[montserrat] ml-2">
               Digital
             </span>
             <br />& Print Services
           </p>
-          <p className="flex-col absolute text-[#FFFFFF] font-hindu font-normal text-[18px] leading-[28.82px] mt-[380px] ml-[40px]">
-            We create expertly-graphics, software designs and branding items.{" "}
-            <br /> We print products like business cards, brochures and flyers
-            etc.
+          <p className=" flex flex-col absolute pt-[63px] lg:pt-[210px] text-[#FFFFFF] text-[8px] font-hindu font-normal lg:text-[18px] leading-[11px] lg:leading-[28.82px]">
+            We create expertly-graphics, software designs and branding items. We
+            print products like business cards, brochures and flyers etc.
           </p>
-          <button className="flex-col absolute bg-[#972D6B;] w-[120px] h-[40px] border-2 border-[#972D6B] hover:bg-[#972D6B] bg-[#363f47] text-[white] hover:text-[white] mt-[470px] ml-[40px] font-[montserrat] text-[16px] font-medium leading-[19.5px]">
+          <button className="absolute mt-[105px] lg:mt-[320px] bg-[#972D6B]  text-[white] w-[50px] h-[13px] lg:w-[167px] lg:h-[48px] hover:bg-[white] bg-[#363f47] hover:text-[#972D6B] font-[montserrat] text-[6px] lg:text-[16px] font-medium leading-2 lg:leading-[19.5px]">
             See more
           </button>
         </div>

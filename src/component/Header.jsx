@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import logo from "../assets/res/image 50.png";
+import harmburg from "../assets/res/hamburger-menu-more-svgrepo-com.svg";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -7,16 +9,25 @@ const Header = () => {
     <header>
       <div className="flex justify-between items-center px-8 py-4 w-full">
         <div className="flex gap-5">
-          <img className="w-[70px] h-[70px]" src={logo} alt="hexstan logo" />
-          <p className="py-6 mr-10000 text-[#07203D]">Hexstan Digital Agency</p>
+          <img
+            className="w-[70px] h-[70px] md: w-[50px] h-[40px]"
+            src={logo}
+            alt="hexstan logo"
+          />
+          <p className="py-6 text-[#07203D] hidden md:block">
+            Hexstan Digital Agency
+          </p>
         </div>
-        <div onClick={() => setShowMenu(true)} className="block md:hidden">
-          menu
-        </div>
-        <div className="hidden md:flex gap-[51px] font-medium text-[15px] leading-4 text-[#07203D] hover:text-[#972D6B]">
+        <img
+          onClick={() => setShowMenu(true)}
+          className="block md:hidden w-8 h-8"
+          src={harmburg}
+          alt=""
+        />
+        <div className="hidden md:flex items-center gap-[51px] font-medium text-[15px] leading-4 text-[#07203D] hover:text-[#972D6B]">
           <button>Home</button>
           <button>Our Service</button>
-          <button>About Us</button>
+          <Link to={"/about"}>About Us</Link>
           <button>Contact</button>
           <button className="my-3 border-2 border-[#972D6B] hover:bg-[#972D6B] bg-[white] w-[135px] h-[50px] text-[#972D6B] hover:text-[white]">
             Login
