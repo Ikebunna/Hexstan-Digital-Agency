@@ -31,8 +31,8 @@ const Home = () => {
         <Header />
       </div>
       <div>
-        <div className="flex absolute pl-[20px] lg:pl-[50px] pt-[50px] lg:pt-[140px] md:flex">
-          <p className="font-extrabold text-[17px] lg:text-[52px] text-[#FFFFFF] leading-[19px] lg:leading-[63.39px] font-[montserrat]">
+        <div className="flex absolute pl-[16px] md:pl-[20px] lg:pl-[50px] pt-[40px] md:pt-[50px] lg:pt-[140px] md:flex">
+          <p className="font-extrabold text-[13px] md:text-[17px] lg:text-[52px] text-[#FFFFFF] leading-[14px] md:leading-[19px] lg:leading-[63.39px] font-[montserrat]">
             Elevate Your Brand <br />
             With Our
             <span className="text-[#972D6B] font-[montserrat] ml-2">
@@ -40,11 +40,11 @@ const Home = () => {
             </span>
             <br />& Print Services
           </p>
-          <p className=" flex flex-col absolute pt-[63px] lg:pt-[210px] text-[#FFFFFF] text-[8px] font-hindu font-normal lg:text-[18px] leading-[11px] lg:leading-[28.82px]">
+          <p className=" flex flex-col absolute pt-[50px] md:pt-[63px] lg:pt-[210px] text-[#FFFFFF] text-[5px] md:text-[8px] font-hindu font-normal lg:text-[18px] leading-[8px] md:leading-[11px] lg:leading-[28.82px]">
             We create expertly-graphics, software designs and branding items. We
             print products like business cards, brochures and flyers etc.
           </p>
-          <button className="absolute mt-[105px] lg:mt-[320px] bg-[#972D6B]  text-[white] w-[50px] h-[13px] lg:w-[167px] lg:h-[48px] hover:bg-[white] bg-[#363f47] hover:text-[#972D6B] font-[montserrat] text-[6px] lg:text-[16px] font-medium leading-2 lg:leading-[19.5px]">
+          <button className="absolute mt-[80px] md:mt-[105px] lg:mt-[320px] bg-[#972D6B]  text-[white] w-[30px] h-[10px] md:w-[50px] md:h-[13px] lg:w-[167px] lg:h-[48px] hover:bg-[white] bg-[#363f47] hover:text-[#972D6B] font-[montserrat] text-[4px] md:text-[6px] lg:text-[16px] font-medium leading-2 lg:leading-[19.5px]">
             See more
           </button>
         </div>
@@ -56,9 +56,9 @@ const Home = () => {
           />
         </div>
       </div>
-      <div className="flex w-full justify-center items-center gap-[260px]">
+      <div className="flex w-full justify-start lg:justify-center lg:items-center gap-[260px]">
         <div className="">
-          <p className="font-[montserrat] text-[32px] font-semibold leading-[43.52px] text-[#972D6B] pt-[100px]">
+          <p className="font-[montserrat] text-[20px] lg:text-[32px] font-semibold leading-[43.52px] text-[#972D6B] pt-[100px]">
             <span className="text-[black]">Who</span> We Are
           </p>
           <p className="mt-5 text-[17px] leading-[30.08px] font-normal opacity-80">
