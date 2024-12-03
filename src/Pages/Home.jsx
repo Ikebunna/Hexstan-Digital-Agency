@@ -56,12 +56,12 @@ const Home = () => {
           />
         </div>
       </div>
-      <div className="flex w-full justify-start lg:justify-center lg:items-center gap-[260px]">
+      <div className="lg:flex w-full justify-center lg:justify-center lg:items-center lg:gap-[260px] md:gap-[200px]">
         <div className="">
-          <p className=" font-[montserrat] text-[15px] lg:text-[40px] font-semibold leading-[43.52px] text-[#972D6B] pt-[50px] lg:pt-[100px]">
+          <p className="font-[montserrat] text-center lg:text-left md:text-[50px] text-[25px] lg:text-[40px] font-semibold lg:leading-[43.52px] text-[#972D6B] pt-[50px] lg:pt-[100px]">
             <span className="text-[black]">Who</span> We Are
           </p>
-          <p className="mt-5 text-[17px] leading-[30.08px] font-normal opacity-80">
+          <p className="text-center lg:text-left mt-5 text-[17px] lg:text-[17px] md:text-[22px] md:leading-[30.08px] leading-[20px] font-normal opacity-80">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do{" "}
             <br />
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim{" "}
@@ -75,7 +75,7 @@ const Home = () => {
             culpa <br />
             qui officia deserunt mollit anim id est laborum.
           </p>
-          <button className="bg-[#972D6B;] w-[120px] h-[40px] text-[#FFFFFF] mt-[30px] font-[montserrat] text-[16px] font-medium leading-[19.5px]">
+          <button className="lg:ml-[0px] ml-[100px] sm:ml-[320px] bg-[#972D6B;] w-[120px] h-[40px] text-[#FFFFFF] mt-[30px] font-[montserrat] text-[16px] font-medium leading-[19.5px]">
             See more
           </button>
         </div>
@@ -85,7 +85,7 @@ const Home = () => {
             src={rectanglee}
             alt=""
           /> */}
-          <img className="w-[350px] h-[300px] mt-[100px]" src={who} alt="" />
+          <img className="w-[300px] h-[250px] ml-[10px] sm:ml-[90px] lg:ml-0 sm:w-[600px] sm:h-[550px] lg:w-[350px] lg:h-[300px] mt-[60px] md:mt-[100px]" src={who} alt="" />
           {/* <img src={mapp} alt="" /> */}
         </div>
       </div>
